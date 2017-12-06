@@ -1,7 +1,7 @@
 .. index::
     single: Upgrading; Patch Version
 
-Upgrading a Patch Version (e.g. 3.3.2 to 3.3.3)
+Upgrading a Patch Version (e.g. 4.0.0 to 4.0.1)
 ===============================================
 
 When a new patch version is released (only the last number changed), it is a
@@ -10,7 +10,7 @@ version is *really* easy:
 
 .. code-block:: terminal
 
-    $ composer update symfony/symfony
+    $ composer update 
 
 That's it! You should not encounter any backwards-compatibility breaks or
 need to change anything else in your code. That's because when you started
